@@ -1348,11 +1348,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyGitHub\\WorkerSample\\WorkerSample\\WorkerSample.csproj",
+      "projectUniqueName": "C:\\MyGitHub\\worker-service\\WorkerSample\\WorkerSample.csproj",
       "projectName": "WorkerSample",
-      "projectPath": "C:\\MyGitHub\\WorkerSample\\WorkerSample\\WorkerSample.csproj",
+      "projectPath": "C:\\MyGitHub\\worker-service\\WorkerSample\\WorkerSample.csproj",
       "packagesPath": "C:\\Users\\rapino\\.nuget\\packages\\",
-      "outputPath": "C:\\MyGitHub\\WorkerSample\\WorkerSample\\obj\\",
+      "outputPath": "C:\\MyGitHub\\worker-service\\WorkerSample\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rapino\\AppData\\Roaming\\NuGet\\NuGet.Config",
