@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerSample", "WorkerSample\WorkerSample.csproj", "{5D6A6B90-D07E-4E9F-B918-8BE868A3E779}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample.Worker", "WorkerSample\WorkerSample.Worker.csproj", "{5D6A6B90-D07E-4E9F-B918-8BE868A3E779}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{B0E3A5AF-4001-4544-887D-451287085B3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{8D21F2F5-7644-4C86-B9D5-BF78691C7418}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Create", "Create", "{AAC1AF7E-F406-45EE-90D7-DEEC4A8EEB82}"
+	ProjectSection(SolutionItems) = preProject
+		Database\Scripts\Create\1 - Database_eletronicos_user.sql = Database\Scripts\Create\1 - Database_eletronicos_user.sql
+		Database\Scripts\Create\2 - Database_eletronicos_datalake.sql = Database\Scripts\Create\2 - Database_eletronicos_datalake.sql
+		Database\Scripts\Create\3 - Tabela_eletronicos_user.sql = Database\Scripts\Create\3 - Tabela_eletronicos_user.sql
+		Database\Scripts\Create\4 - Tabela_eletronicos_datalake.sql = Database\Scripts\Create\4 - Tabela_eletronicos_datalake.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +30,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D21F2F5-7644-4C86-B9D5-BF78691C7418} = {B0E3A5AF-4001-4544-887D-451287085B3C}
+		{AAC1AF7E-F406-45EE-90D7-DEEC4A8EEB82} = {8D21F2F5-7644-4C86-B9D5-BF78691C7418}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2BFCF880-3492-4A43-864F-0AA7275EFD03}

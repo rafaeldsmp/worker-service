@@ -1348,9 +1348,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyGitHub\\worker-service\\WorkerSample\\WorkerSample.csproj",
-      "projectName": "WorkerSample",
-      "projectPath": "C:\\MyGitHub\\worker-service\\WorkerSample\\WorkerSample.csproj",
+      "projectUniqueName": "C:\\MyGitHub\\worker-service\\WorkerSample\\WorkerSample.Worker.csproj",
+      "projectName": "WorkerSample.Worker",
+      "projectPath": "C:\\MyGitHub\\worker-service\\WorkerSample\\WorkerSample.Worker.csproj",
       "packagesPath": "C:\\Users\\rapino\\.nuget\\packages\\",
       "outputPath": "C:\\MyGitHub\\worker-service\\WorkerSample\\obj\\",
       "projectStyle": "PackageReference",

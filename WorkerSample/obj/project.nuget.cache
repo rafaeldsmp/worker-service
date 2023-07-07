@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R2ytbYSR1ZUkMSbnYu7MKha4CNE6ZXHloRpGcPPwfMIy18KODRbwCa55pJzILztMpMmQ8hPjFEU8saDfTZ79fg==",
+  "dgSpecHash": "OHLnHTRWxPHe7FVM+pNYeVH3cnULv3OVCk3IawxNMWEe3x2SNKlO3TD300juiRmallOqgcujRcWyhQJ5JJ7kGg==",
   "success": true,
-  "projectFilePath": "C:\\MyGitHub\\worker-service\\WorkerSample\\WorkerSample.csproj",
+  "projectFilePath": "C:\\MyGitHub\\worker-service\\WorkerSample\\WorkerSample.Worker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rapino\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\rapino\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
