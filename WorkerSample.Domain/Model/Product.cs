@@ -1,7 +1,8 @@
 ﻿namespace WorkerSample.Domain.Model
 {
-    public class Produto
+    public class Product
     {
+        public int Codigo { get; set; }
         public string? Categoria { get; set; }
         public string? Tipo { get; set; }
         public string? Nome { get; set; }
