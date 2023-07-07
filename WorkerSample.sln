@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Create", "Create", "{AAC1AF
 		Database\Scripts\Create\4 - Tabela_eletronicos_datalake.sql = Database\Scripts\Create\4 - Tabela_eletronicos_datalake.sql
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample.Infrastructure", "Infrastructure\WorkerSample.Infrastructure.csproj", "{6049F5B7-F78C-4DE6-B691-32382E72A617}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5D6A6B90-D07E-4E9F-B918-8BE868A3E779}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D6A6B90-D07E-4E9F-B918-8BE868A3E779}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D6A6B90-D07E-4E9F-B918-8BE868A3E779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6049F5B7-F78C-4DE6-B691-32382E72A617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6049F5B7-F78C-4DE6-B691-32382E72A617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6049F5B7-F78C-4DE6-B691-32382E72A617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6049F5B7-F78C-4DE6-B691-32382E72A617}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

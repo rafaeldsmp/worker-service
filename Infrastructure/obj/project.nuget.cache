@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j/aDYMAGoG8OVP4ty6q6za3r1sZI90t4dSXfJpKpaLJPQbaEh5Ez0u2EAHctjN7KMLGjtypE+uT7Yy7g4TcdxA==",
+  "dgSpecHash": "j6yRCIHKQpys0V1G6OPRieNsl//Ak2Sy8zWN2nSkJD2iKDs23h3VbKQtCft6atKs77Wx8ErmCmhBCYRwMZrbEw==",
   "success": true,
   "projectFilePath": "C:\\MyGitHub\\worker-service\\Infrastructure\\WorkerSample.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\rapino\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\rapino\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "C:\\Users\\rapino\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
+    "C:\\Users\\rapino\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\rapino\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\rapino\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\rapino\\.nuget\\packages\\microsoft.identity.client\\4.47.2\\microsoft.identity.client.4.47.2.nupkg.sha512",
