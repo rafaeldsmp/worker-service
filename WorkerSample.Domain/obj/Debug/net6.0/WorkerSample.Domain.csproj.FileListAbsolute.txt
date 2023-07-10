@@ -1,0 +1,12 @@
+C:\MyGitHub\worker-service\WorkerSample.Domain\bin\Debug\net6.0\WorkerSample.Domain.deps.json
+C:\MyGitHub\worker-service\WorkerSample.Domain\bin\Debug\net6.0\WorkerSample.Domain.dll
+C:\MyGitHub\worker-service\WorkerSample.Domain\bin\Debug\net6.0\WorkerSample.Domain.pdb
+C:\MyGitHub\worker-service\WorkerSample.Domain\obj\Debug\net6.0\WorkerSample.Domain.csproj.AssemblyReference.cache
+C:\MyGitHub\worker-service\WorkerSample.Domain\obj\Debug\net6.0\WorkerSample.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyGitHub\worker-service\WorkerSample.Domain\obj\Debug\net6.0\WorkerSample.Domain.AssemblyInfoInputs.cache
+C:\MyGitHub\worker-service\WorkerSample.Domain\obj\Debug\net6.0\WorkerSample.Domain.AssemblyInfo.cs
+C:\MyGitHub\worker-service\WorkerSample.Domain\obj\Debug\net6.0\WorkerSample.Domain.csproj.CoreCompileInputs.cache
+C:\MyGitHub\worker-service\WorkerSample.Domain\obj\Debug\net6.0\WorkerSample.Domain.dll
+C:\MyGitHub\worker-service\WorkerSample.Domain\obj\Debug\net6.0\refint\WorkerSample.Domain.dll
+C:\MyGitHub\worker-service\WorkerSample.Domain\obj\Debug\net6.0\WorkerSample.Domain.pdb
+C:\MyGitHub\worker-service\WorkerSample.Domain\obj\Debug\net6.0\ref\WorkerSample.Domain.dll

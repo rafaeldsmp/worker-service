@@ -10,3 +10,8 @@ C:\MyGitHub\worker-service\Infrastructure\obj\Debug\net6.0\WorkerSample.Infrastr
 C:\MyGitHub\worker-service\Infrastructure\obj\Debug\net6.0\refint\WorkerSample.Infrastructure.dll
 C:\MyGitHub\worker-service\Infrastructure\obj\Debug\net6.0\WorkerSample.Infrastructure.pdb
 C:\MyGitHub\worker-service\Infrastructure\obj\Debug\net6.0\ref\WorkerSample.Infrastructure.dll
+C:\MyGitHub\worker-service\Infrastructure\bin\Debug\net6.0\WorkerSample.Domain.dll
+C:\MyGitHub\worker-service\Infrastructure\bin\Debug\net6.0\WorkerSample.Domain.pdb
+C:\MyGitHub\worker-service\Infrastructure\obj\Debug\net6.0\WorkerSample.Infrastructure.Resource.resources
+C:\MyGitHub\worker-service\Infrastructure\obj\Debug\net6.0\WorkerSample.Infrastructure.csproj.GenerateResource.cache
+C:\MyGitHub\worker-service\Infrastructure\obj\Debug\net6.0\WorkerSample.Infrastructure.csproj.CopyComplete
