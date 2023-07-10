@@ -18,6 +18,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Create", "Create", "{AAC1AF
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample.Infrastructure", "Infrastructure\WorkerSample.Infrastructure.csproj", "{6049F5B7-F78C-4DE6-B691-32382E72A617}"
+	ProjectSection(ProjectDependencies) = postProject
+		{49D97D7A-5061-4096-9E8A-D30476BAEC2D} = {49D97D7A-5061-4096-9E8A-D30476BAEC2D}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample.Domain", "WorkerSample.Domain\WorkerSample.Domain.csproj", "{49D97D7A-5061-4096-9E8A-D30476BAEC2D}"
 EndProject

@@ -782,6 +782,16 @@
             "rid": "win"
           }
         }
+      },
+      "WorkerSample.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WorkerSample.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WorkerSample.Domain.dll": {}
+        }
       }
     }
   },
@@ -2165,13 +2175,19 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "WorkerSample.Domain/1.0.0": {
+      "type": "project",
+      "path": "../WorkerSample.Domain/WorkerSample.Domain.csproj",
+      "msbuildProject": "../WorkerSample.Domain/WorkerSample.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Dapper >= 2.0.143",
       "Microsoft.Data.SqlClient >= 5.1.1",
-      "Microsoft.Extensions.Configuration >= 7.0.0"
+      "Microsoft.Extensions.Configuration >= 7.0.0",
+      "WorkerSample.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2200,7 +2216,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\MyGitHub\\worker-service\\WorkerSample.Domain\\WorkerSample.Domain.csproj": {
+              "projectPath": "C:\\MyGitHub\\worker-service\\WorkerSample.Domain\\WorkerSample.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
