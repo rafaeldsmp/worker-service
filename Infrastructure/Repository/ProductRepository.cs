@@ -26,7 +26,7 @@ namespace WorkerSample.Infrastructure.Repository
             }
         }
 
-        public List<Product> SelectProdutoEletronicosUser()
+        public List<Product> SelectProductEletronicosUser()
         {
             var connection = _dapper.eletronicos_user;
             string query = string.Format(Resource.SelectEletronicosUser);
