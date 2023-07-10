@@ -85,3 +85,4 @@ C:\MyGitHub\worker-service\WorkerSample\bin\Debug\net6.0\WorkerSample.Domain.dll
 C:\MyGitHub\worker-service\WorkerSample\bin\Debug\net6.0\WorkerSample.Infrastructure.dll
 C:\MyGitHub\worker-service\WorkerSample\bin\Debug\net6.0\WorkerSample.Infrastructure.pdb
 C:\MyGitHub\worker-service\WorkerSample\bin\Debug\net6.0\WorkerSample.Domain.pdb
+C:\MyGitHub\worker-service\WorkerSample\bin\Debug\net6.0\NLog.dll

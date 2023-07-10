@@ -15,6 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Create", "Create", "{AAC1AF
 		Database\Scripts\Create\2 - Database_eletronicos_datalake.sql = Database\Scripts\Create\2 - Database_eletronicos_datalake.sql
 		Database\Scripts\Create\3 - Tabela_eletronicos_user.sql = Database\Scripts\Create\3 - Tabela_eletronicos_user.sql
 		Database\Scripts\Create\4 - Tabela_eletronicos_datalake.sql = Database\Scripts\Create\4 - Tabela_eletronicos_datalake.sql
+		5 -InsertTable_eletronicos_user.sql = 5 -InsertTable_eletronicos_user.sql
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample.Infrastructure", "Infrastructure\WorkerSample.Infrastructure.csproj", "{6049F5B7-F78C-4DE6-B691-32382E72A617}"
