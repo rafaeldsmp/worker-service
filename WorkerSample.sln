@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Create", "Create", "{AAC1AF
 	ProjectSection(SolutionItems) = preProject
 		Database\Scripts\Create\1 - Database_eletronicos_user.sql = Database\Scripts\Create\1 - Database_eletronicos_user.sql
 		Database\Scripts\Create\2 - Database_eletronicos_datalake.sql = Database\Scripts\Create\2 - Database_eletronicos_datalake.sql
-		3 - Login.sql = 3 - Login.sql
+		Database\Scripts\Create\3 - Login.sql = Database\Scripts\Create\3 - Login.sql
 		Database\Scripts\Create\4 - Tabela_eletronicos_datalake.sql = Database\Scripts\Create\4 - Tabela_eletronicos_datalake.sql
 		Database\Scripts\Create\5 - Tabela_eletronicos_user.sql = Database\Scripts\Create\5 - Tabela_eletronicos_user.sql
 	EndProjectSection
