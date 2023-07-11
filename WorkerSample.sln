@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Create", "Create", "{AAC1AF
 	ProjectSection(SolutionItems) = preProject
 		Database\Scripts\Create\1 - Database_eletronicos_user.sql = Database\Scripts\Create\1 - Database_eletronicos_user.sql
 		Database\Scripts\Create\2 - Database_eletronicos_datalake.sql = Database\Scripts\Create\2 - Database_eletronicos_datalake.sql
+		3 - Login.sql = 3 - Login.sql
 		Database\Scripts\Create\4 - Tabela_eletronicos_datalake.sql = Database\Scripts\Create\4 - Tabela_eletronicos_datalake.sql
 		Database\Scripts\Create\5 - Tabela_eletronicos_user.sql = Database\Scripts\Create\5 - Tabela_eletronicos_user.sql
-		7 - InsertTable_eletronicos_user.sql = 7 - InsertTable_eletronicos_user.sql
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample.Infrastructure", "Infrastructure\WorkerSample.Infrastructure.csproj", "{6049F5B7-F78C-4DE6-B691-32382E72A617}"
@@ -26,6 +26,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample.Domain", "WorkerSample.Domain\WorkerSample.Domain.csproj", "{49D97D7A-5061-4096-9E8A-D30476BAEC2D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample.Application", "Application\WorkerSample.Application.csproj", "{66E0C6DF-8910-4386-9016-F34CCBBF8EE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Insert", "Insert", "{F195636D-3AA4-4BEB-B22A-96A104655E1B}"
+	ProjectSection(SolutionItems) = preProject
+		Database\Scripts\Insert\InsertTable_eletronicos_user.sql = Database\Scripts\Insert\InsertTable_eletronicos_user.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +61,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8D21F2F5-7644-4C86-B9D5-BF78691C7418} = {B0E3A5AF-4001-4544-887D-451287085B3C}
 		{AAC1AF7E-F406-45EE-90D7-DEEC4A8EEB82} = {8D21F2F5-7644-4C86-B9D5-BF78691C7418}
+		{F195636D-3AA4-4BEB-B22A-96A104655E1B} = {8D21F2F5-7644-4C86-B9D5-BF78691C7418}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2BFCF880-3492-4A43-864F-0AA7275EFD03}
