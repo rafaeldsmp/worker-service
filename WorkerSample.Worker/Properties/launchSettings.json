@@ -1,6 +1,6 @@
 ﻿{
   "profiles": {
-    "WorkerSample": {
+    "WorkerSample.Worker": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "environmentVariables": {
