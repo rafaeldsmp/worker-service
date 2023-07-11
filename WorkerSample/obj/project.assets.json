@@ -1361,6 +1361,21 @@
           }
         }
       },
+      "WorkerSample.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NLog": "5.2.2",
+          "NLog.Extensions.Logging": "5.3.2",
+          "WorkerSample.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WorkerSample.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WorkerSample.Application.dll": {}
+        }
+      },
       "WorkerSample.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3603,6 +3618,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "WorkerSample.Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/WorkerSample.Application.csproj",
+      "msbuildProject": "../Application/WorkerSample.Application.csproj"
+    },
     "WorkerSample.Domain/1.0.0": {
       "type": "project",
       "path": "../WorkerSample.Domain/WorkerSample.Domain.csproj",
@@ -3621,6 +3641,7 @@
       "Microsoft.Extensions.Hosting >= 7.0.1",
       "NLog >= 5.2.2",
       "NLog.Extensions.Logging >= 5.3.2",
+      "WorkerSample.Application >= 1.0.0",
       "WorkerSample.Domain >= 1.0.0",
       "WorkerSample.Infrastructure >= 1.0.0"
     ]
@@ -3652,6 +3673,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\MyGitHub\\worker-service\\Application\\WorkerSample.Application.csproj": {
+              "projectPath": "C:\\MyGitHub\\worker-service\\Application\\WorkerSample.Application.csproj"
+            },
             "C:\\MyGitHub\\worker-service\\Infrastructure\\WorkerSample.Infrastructure.csproj": {
               "projectPath": "C:\\MyGitHub\\worker-service\\Infrastructure\\WorkerSample.Infrastructure.csproj"
             },

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YUTiRVEJvEK7YBd+P9x+Bd5WufYr6P3K0jR50jyAHO4WmsZo4KoRQfg3+d/vSJznuQK8NXgkD00NjYAJ1kQwBg==",
+  "dgSpecHash": "xwck291FtB36qvrn7mCTRqgQ7JL6jU1sEuHxk9+7n3s8W1BmIAc2+/gjDq44bvR5VpyLHPUXE6QceXY0NaRQFg==",
   "success": true,
   "projectFilePath": "C:\\MyGitHub\\worker-service\\WorkerSample\\WorkerSample.Worker.csproj",
   "expectedPackageFiles": [

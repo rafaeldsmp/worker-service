@@ -118,17 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="DeleteData" xml:space="preserve">
-    <value>USE [eletronicos_user]
-GO
-
-DELETE FROM [estoque].[eletronicos]</value>
+    <value>DELETE FROM eletronicos_datalake.estoque.eletronicos</value>
   </data>
   <data name="InsertDatalake" xml:space="preserve">
     <value>INSERT INTO [estoque].[eletronicos]
 (
            CODIGO,
            CATEGORIA,
-           TIPO,
+           MARCA,
            NOME,
            QUANTIDADE,
            PRECO,
@@ -136,7 +133,8 @@ DELETE FROM [estoque].[eletronicos]</value>
  )
                 VALUES(
                                       @Codigo,
-                                      @Tipo,
+                                      @Categoria,
+                                      @Marca,
                                       @Nome,
                                       @Quantidade,
                                       @Preco,
@@ -144,17 +142,14 @@ DELETE FROM [estoque].[eletronicos]</value>
                              )</value>
   </data>
   <data name="SelectEletronicosUser" xml:space="preserve">
-    <value>USE [eletronicos_user]
-GO
-
-SELECT [CATEGORIA]
-      ,[TIPO]
-      ,[NOME]
-      ,[QUANTIDADE]
-      ,[PRECO]
-      ,[ESTADO]
-  FROM [estoque].[eletronicos]
-
-GO</value>
+    <value>SELECT  
+      [CODIGO],
+      [CATEGORIA],
+      [MARCA],
+      [NOME],
+      [QUANTIDADE],
+      [PRECO],
+      [ESTADO]
+FROM eletronicos_user.estoque.eletronicos</value>
   </data>
 </root>

@@ -1,3 +1,5 @@
+using Application;
+using Application.IService;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using NLog;
@@ -24,6 +26,7 @@ IHost host = Host.CreateDefaultBuilder(args)
             return option;
         }).InstancePerLifetimeScope();
         builder.RegisterType<ProductRepository>().As<IProductRepository>().InstancePerLifetimeScope();
+        builder.RegisterType<ProductApplication>().As<IProductApplication>().AsSelf();
         builder.RegisterInstance(LogManager.GetCurrentClassLogger()).As<ILogger>().As<Logger>().SingleInstance();
     })
     

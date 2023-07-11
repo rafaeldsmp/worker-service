@@ -4,6 +4,75 @@
     "C:\\MyGitHub\\worker-service\\WorkerSample\\WorkerSample.Worker.csproj": {}
   },
   "projects": {
+    "C:\\MyGitHub\\worker-service\\Application\\WorkerSample.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MyGitHub\\worker-service\\Application\\WorkerSample.Application.csproj",
+        "projectName": "WorkerSample.Application",
+        "projectPath": "C:\\MyGitHub\\worker-service\\Application\\WorkerSample.Application.csproj",
+        "packagesPath": "C:\\Users\\rapino\\.nuget\\packages\\",
+        "outputPath": "C:\\MyGitHub\\worker-service\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rapino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\MyGitHub\\worker-service\\WorkerSample.Domain\\WorkerSample.Domain.csproj": {
+                "projectPath": "C:\\MyGitHub\\worker-service\\WorkerSample.Domain\\WorkerSample.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\MyGitHub\\worker-service\\Infrastructure\\WorkerSample.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -156,6 +225,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\MyGitHub\\worker-service\\Application\\WorkerSample.Application.csproj": {
+                "projectPath": "C:\\MyGitHub\\worker-service\\Application\\WorkerSample.Application.csproj"
+              },
               "C:\\MyGitHub\\worker-service\\Infrastructure\\WorkerSample.Infrastructure.csproj": {
                 "projectPath": "C:\\MyGitHub\\worker-service\\Infrastructure\\WorkerSample.Infrastructure.csproj"
               },

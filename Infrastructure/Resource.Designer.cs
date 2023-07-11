@@ -61,10 +61,7 @@ namespace WorkerSample.Infrastructure {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to USE [eletronicos_user]
-        ///GO
-        ///
-        ///DELETE FROM [estoque].[eletronicos].
+        ///   Looks up a localized string similar to DELETE FROM eletronicos_datalake.estoque.eletronicos.
         /// </summary>
         internal static string DeleteData {
             get {
@@ -77,7 +74,7 @@ namespace WorkerSample.Infrastructure {
         ///(
         ///           CODIGO,
         ///           CATEGORIA,
-        ///           TIPO,
+        ///           MARCA,
         ///           NOME,
         ///           QUANTIDADE,
         ///           PRECO,
@@ -85,12 +82,12 @@ namespace WorkerSample.Infrastructure {
         /// )
         ///                VALUES(
         ///                                      @Codigo,
-        ///                                      @Tipo,
+        ///                                      @Categoria,
+        ///                                      @Marca,
         ///                                      @Nome,
         ///                                      @Quantidade,
         ///                                      @Preco,
-        ///                                      @Estado
-        ///                 [rest of string was truncated]&quot;;.
+        ///           [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string InsertDatalake {
             get {
@@ -99,18 +96,15 @@ namespace WorkerSample.Infrastructure {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to USE [eletronicos_user]
-        ///GO
-        ///
-        ///SELECT [CATEGORIA]
-        ///      ,[TIPO]
-        ///      ,[NOME]
-        ///      ,[QUANTIDADE]
-        ///      ,[PRECO]
-        ///      ,[ESTADO]
-        ///  FROM [estoque].[eletronicos]
-        ///
-        ///GO.
+        ///   Looks up a localized string similar to SELECT  
+        ///      [CODIGO],
+        ///      [CATEGORIA],
+        ///      [MARCA],
+        ///      [NOME],
+        ///      [QUANTIDADE],
+        ///      [PRECO],
+        ///      [ESTADO]
+        ///FROM eletronicos_user.estoque.eletronicos.
         /// </summary>
         internal static string SelectEletronicosUser {
             get {

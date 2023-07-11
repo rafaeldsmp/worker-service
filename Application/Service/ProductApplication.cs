@@ -1,6 +1,5 @@
 ﻿using Application.IService;
 using NLog;
-using NLog.Fluent;
 using WorkerSample.Domain.IRepository;
 
 namespace Application
@@ -20,15 +19,15 @@ namespace Application
         {
             try
             {
-                _logger.Info("Extract new datas on table [estoque].[eletronicos].");
-                var eletronic = _productRepository.SelectProductEletronicosUser();
-                _logger.Info(@"{} New extracted data.", eletronic.Count);
-
                 _logger.Info("Deleting old table data on [estoque].[eletronicos]. ");
                 _productRepository.ClearDataEletronicosDatalake();
                 _logger.Info("deleted data.");
 
-                _logger.Info("Inserindo os novos dados na tabela [scada].[TAGGING].");
+                _logger.Info("Extract new datas on table [estoque].[eletronicos].");
+                var eletronic = _productRepository.SelectProductEletronicosUser();
+                _logger.Info(@"{} New extracted data.", eletronic.Count);
+
+                _logger.Info("Insert new data on table [estoque].[eletronicos].");
                 _productRepository.InsertDataEletronicosDatalake(eletronic);
                 _logger.Info("Inserting new datas.");
             }
