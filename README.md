@@ -5,7 +5,7 @@
 - Microsoft SQL Server 2019 +
 - Visual Studio com suporte a .NET Core 6 +
 
-## Definições:
+## Definições
  - DDD: Worker, Application, Domain e Infrastructure
  - DI: Autofac
  - ORM: Dapper, SqlClient
