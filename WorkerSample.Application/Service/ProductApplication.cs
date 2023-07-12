@@ -19,15 +19,15 @@ namespace Application
         {
             try
             {
-                _logger.Info("Deleting old table data on [estoque].[eletronicos]. ");
+                _logger.Info("Deleting old table data on [estoque].[eletronicos] on eletronicos_datalake. ");
                 _productRepository.ClearDataEletronicosDatalake();
                 _logger.Info("deleted data.");
 
-                _logger.Info("Extract new datas on table [estoque].[eletronicos].");
+                _logger.Info("Extract new datas on table [estoque].[eletronicos] on eletronicos_user.");
                 var eletronic = _productRepository.SelectProductEletronicosUser();
                 _logger.Info(@"{} New extracted data.", eletronic.Count);
 
-                _logger.Info("Insert new data on table [estoque].[eletronicos].");
+                _logger.Info("Insert new data on table [estoque].[eletronicos] on eletronicos_datalake.");
                 _productRepository.InsertDataEletronicosDatalake(eletronic);
                 _logger.Info("Inserting new datas.");
             }

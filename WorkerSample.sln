@@ -20,14 +20,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample.Domain", "Work
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Insert", "Insert", "{F195636D-3AA4-4BEB-B22A-96A104655E1B}"
 	ProjectSection(SolutionItems) = preProject
-		Database\Scripts\Insert\InsertTable_eletronicos_user.sql = Database\Scripts\Insert\InsertTable_eletronicos_user.sql
+		Database\Scripts\Insert\1 - InsertTable_eletronicos_user.sql = Database\Scripts\Insert\1 - InsertTable_eletronicos_user.sql
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample.Application", "WorkerSample.Application\WorkerSample.Application.csproj", "{BB91A451-5FB7-4C93-92DC-4DE1B65652DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerSample.Infrastructure", "WorkerSample.Infrastructure\WorkerSample.Infrastructure.csproj", "{A47E5661-E52A-4B75-B9BB-EEB48AB242E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample.Infrastructure", "WorkerSample.Infrastructure\WorkerSample.Infrastructure.csproj", "{A47E5661-E52A-4B75-B9BB-EEB48AB242E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerSample.Worker", "WorkerSample.Worker\WorkerSample.Worker.csproj", "{C254A041-3D9E-42F7-B9A0-E2059A6BB2FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerSample.Worker", "WorkerSample.Worker\WorkerSample.Worker.csproj", "{C254A041-3D9E-42F7-B9A0-E2059A6BB2FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
